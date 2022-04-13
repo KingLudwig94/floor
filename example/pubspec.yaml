@@ -11,7 +11,9 @@ environment:
 
 dependencies:
   floor:
-    path: ../floor/
+    git: 
+      url: https://github.com/KingLudwig94/floor.git
+      path: floor/
   flutter:
     sdk: flutter
 
@@ -19,6 +21,8 @@ dev_dependencies:
   analyzer: ^3.1.0
   build_runner: ^2.1.7
   floor_generator:
-    path: ../floor_generator/
+    git:
+      url: https://github.com/KingLudwig94/floor.git
+      path: floor_generator/
   flutter_test:
     sdk: flutter

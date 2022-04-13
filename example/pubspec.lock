@@ -200,9 +200,11 @@ packages:
   floor_annotation:
     dependency: transitive
     description:
-      path: "../floor_annotation"
-      relative: true
-    source: path
+      path: floor_annotation
+      ref: HEAD
+      resolved-ref: f08c4b4bd300d8fb3235b9eaef020028bc4b3c92
+      url: "https://github.com/KingLudwig94/floor.git"
+    source: git
     version: "1.0.1"
   floor_generator:
     dependency: "direct dev"
