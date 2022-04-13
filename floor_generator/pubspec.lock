@@ -172,9 +172,11 @@ packages:
   floor_annotation:
     dependency: "direct main"
     description:
-      path: "../floor_annotation"
-      relative: true
-    source: path
+      path: floor_annotation
+      ref: HEAD
+      resolved-ref: "01c282be96a10ba817b76a05965d00276a77979b"
+      url: "https://github.com/KingLudwig94/floor.git"
+    source: git
     version: "1.0.1"
   frontend_server_client:
     dependency: transitive

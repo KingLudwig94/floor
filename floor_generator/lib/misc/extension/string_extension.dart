@@ -50,7 +50,7 @@ extension NullableStringExtension on String? {
     if (this == null) {
       return 'null';
     } else {
-      return "'${escape(this!)}'";
+      return "'$this'";
     }
   }
 }
